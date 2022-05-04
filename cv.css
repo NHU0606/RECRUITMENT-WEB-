@@ -1,0 +1,544 @@
+:root{
+    --main_color: #00b14f;
+    --sub_color: #2f7b50;
+    --icon_color: #1a4a2f;
+    --hover_icon: #71e1a4;
+    --hover--text: #0b3820;
+    --background--color--light:#e3fff0;
+    --background--color--dark:#16944f;
+    --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+.xxxxxxxxxx{
+    border-bottom: 2px solid var(--icon_color);
+}
+.header__wrap--function{
+    display: flex;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.top__header{
+    height: 30px;
+    background-color: var(--main_color);
+    margin: 0 150px;
+
+}
+.top__header--text{
+    font-family: 'Teko', sans-serif;
+    padding: 5px 0 0 20px;
+    color: #fff;
+}
+.header__pt{
+    display: flex;
+    margin: 0 150px;
+    
+}
+
+.name__logo{
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    font-size: 50px;
+    height: 70px;
+}
+.extra__menu ul{
+    margin: 0;
+    padding: 0;
+}
+.extra__menu ul li{
+    list-style: none;
+    float: left;
+    
+
+}
+
+.header__wrap--function{
+    display: flex;
+}
+
+
+.tittle__body--pt{
+    width: 33.33%;
+    border-left: 7px solid var(--main_color) ;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px 0;
+    cursor: pointer;
+   
+}
+.account__mem img{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    right: 200px;
+}
+.account__mem span{
+    cursor: pointer;
+   margin-top: 60px;
+    position: absolute;
+    right: 150px;
+    font-weight: 600;
+    color: var(--main_color);
+}
+.extra__menu{    
+    display: flex;
+}
+.light__dark--mode{
+    display: flex;
+    width: 600px;
+
+}
+/*MENU COL Viec Lam*/
+.menu__first--child{
+    padding-left: 50px;
+}
+
+.menu__first--child{
+    padding-top: 30px;
+   font-weight: 600;
+   font-size: 16px;
+   cursor: pointer;
+   
+}
+.menu__first--child:hover{
+    color: var(--hover--text);
+    transition: .5s;
+}
+.menu__second--child{
+    display: flex;
+    margin-top: 30px;
+}
+.menu__text--firstcol{
+    padding-left: 10px;
+    font-weight: 300;
+   font-size: 14px;
+
+}
+.left__second--child{
+    width: 250px;
+}
+.left__second--child ul{
+    display: flex;
+    flex-direction: column;
+}
+.contai__menu--firstcol{
+    display: flex;
+    box-shadow: var(--shadow);
+    padding: 20px;
+    background-color: #fff;
+}
+
+.right__second--child img{
+    
+    height: 220px;
+    width: 300px;
+    object-fit: cover;
+}
+.menu__second--child:first-child{
+    margin-top: 0px;
+    padding-left: 2px;
+}
+.menu__second--child{    
+    color: #000;
+}
+.contai__menu--firstcol {
+    position: absolute;  
+    border-radius: 5px;
+    transform: translateY(20px);
+    visibility: hidden;
+    
+}
+
+.menu__first--child:hover .contai__menu--firstcol {
+    transition: .5s;
+    transform: translateY(0px);
+    visibility: initial;
+}
+.menu__second--child:hover .icon_first,
+.menu__second--child:hover .menu__text--firstcol{
+    color: var(--hover--text);
+    transform: translateX(10px);
+    transition: .5s;
+}
+/*second col extra menu - Ho so va CV*/
+.menu__first--child{
+    padding-left: 50px;
+}
+
+.menu__first--child{
+    padding-top: 30px;
+   font-weight: 600;
+   font-size: 16px;
+   cursor: pointer;
+}
+.menu__first--child:hover{
+    color: var(--hover--text);
+    transition: .5s;
+}
+.menu__second--col{
+    display: flex;
+    margin-top: 30px;
+}
+.menu__text--secondcol{
+    padding-left: 10px;
+    font-weight: 300;
+   font-size: 14px;
+
+}
+.left__secondcol{
+    width: 300px;
+}
+.left__secondcol ul{
+    display: flex;
+    flex-direction: column;
+}
+.contai__menu--secondcol{
+    display: flex;
+    box-shadow: var(--shadow);
+    padding: 20px;
+    background-color: #fff;
+    
+}
+
+.right__secondcol img{    
+    height: 220px;
+    width: 300px;
+    object-fit: cover;
+}
+.menu__second--col:first-child{
+    margin-top: 0px;
+    
+}
+.menu__second--col{    
+    color: #000;
+}
+.contai__menu--secondcol {
+    position: absolute;  
+    border-radius: 5px;
+    transform: translateY(20px);
+    visibility: hidden;
+    
+}
+
+.menu__first--child:hover .contai__menu--secondcol {
+    transition: .5s;
+    transform: translateY(0px);
+    visibility: initial;
+}
+.menu__second--col:hover .icon_second,
+.menu__second--col:hover .menu__text--secondcol{
+    color: var(--hover--text);
+    transform: translateX(10px);
+    transition: .5s;
+}
+.icon_second, .icon_first{
+    width: 20px;
+    height: auto;
+}
+/*EXTRA MENU COT THU 3, CONG TY*/
+.menu__thridly--col{    
+    color: #000;
+}
+.contai__menu--thridlycol{
+    position: absolute;  
+    border-radius: 5px;
+    transform: translateY(20px);
+    visibility: hidden;
+    
+}
+.contai__menu--thridlycol ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu__first--child:hover .contai__menu--thridlycol{
+    transition: .5s;
+    transform: translateY(0px);
+    visibility: initial;
+}
+.menu__thridly--col:hover .icon_thridly,
+.menu__thridly--col:hover .menu__text--thridlycol{
+    color: var(--hover--text);
+    transform: translateX(10px);
+    transition: .5s;
+}
+.icon_second, .icon_first{
+    width: 20px;
+    height: auto;
+}
+.menu__thridly--col:nth-child(2){    
+    margin-top: 30px;
+}
+.menu__thridly--col{
+    display: flex;   
+}
+.menu__text--thridlycol{
+    padding-left: 10px;
+    font-weight: 300;
+   font-size: 14px;
+
+}
+.contai__menu--thridlycol{
+    display: flex;
+    box-shadow: var(--shadow);
+    padding: 20px;    
+    width: 250px;
+    background-color: #fff;
+}
+/*login log out*/
+.btn__register--account{
+    display: flex;
+    position: absolute;
+    right: 150px;
+}
+.form__findcv--submit,
+.form__login--submit,
+.form__registration--submit{    
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;    
+    font-weight: bold;
+    color: #fff;
+   margin-top: 10px;
+   cursor: pointer;
+}
+.form__findcv--submit{
+    background-color: #333;
+}
+.form__login--submit{
+    background-color: var(--main_color);
+}
+.form__registration--submit{    
+   border: 1px solid var(--main_color);
+   color: var(--main_color);
+}
+
+.form__login--submit:hover,
+.form__registration--submit:hover{ 
+    transition: .5s;    
+    background-color: var(--sub_color);
+}
+.form__registration--submit:hover{ 
+    
+    color: #fff;
+}
+.form__findcv--submit,
+.form__login--submit{
+    margin-left: 20px;
+}
+
+/*footer*/
+.footer__pt{
+    margin: 50px 150px;
+    justify-content: space-between;
+}
+.branch__company--item,
+.left__footer--pt,
+.footer__pt{
+    display: flex;
+}
+
+.infor__us, 
+.profile__cv{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.infor__us ul li, 
+.profile__cv ul li{
+    font-weight: normal;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.left__footer--pt{
+    width: 25%;
+    justify-content: space-between;
+}
+.infor__us ul li:hover, 
+.profile__cv ul li:hover{
+    color: var(--hover--text);
+}
+.branch__company--text{
+    padding-left: 5px;    
+}
+.branch__company--ite:nth-child(2){
+        padding-top: 10px;
+}
+.branch__company--item{
+    padding-top: 5px;
+    font-weight: bold;
+}
+.intro__location{    
+    font-weight: bold;
+}
+.branch__company--text span{
+    font-weight: normal;
+    color: gray;
+}
+/*cvo-header*/
+.body_pt{
+    margin: 50px 150px;
+}
+
+.cvo-header {
+    display: flex;
+   
+    background: #f4e8f8;
+    padding: 20px;
+    border-radius: 30px;
+}
+.box__avt img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+
+.box_avt--wrapper {
+    float: left;
+    width: 73%;
+    padding-top: 30px;
+    padding-left: 35px;
+}
+.box_avt--wrappername {
+    width: 50%;
+    font-weight: 700;
+    font-size: 28px;
+    text-transform: uppercase;
+    line-height: 42px;
+    color: #ff881d;
+    
+    display: block;
+    padding: 5px;
+}
+.box_avt--wrapperintrojob {
+    width: 50%;
+    padding: 5px;
+
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 4px;
+    color: #496c92;
+    font-weight: 700;
+    font-size: 20px;
+}
+.cvo__tittle {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    background-color: #faf6c6;
+    color: #ff881d;
+    position: absolute;
+    font-weight: 700;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transform: translateY(-25px);
+    z-index: 3;
+}
+.cvo__sub {
+    width: 100%;
+    margin-bottom: 45px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 35px 20px 20px;
+    background: #f4e8f8;
+    border-radius: 30px;
+    position: relative;
+}
+.icon__intro--mem {
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    margin-right: 10px;
+    background: #ff881d;
+    border-radius: 50%;
+}
+.cvo__sub ul li{
+    padding: 5px 0;
+}
+.cvo__sub--describe{
+    color: #496c92;
+    line-height: 1.5;
+ 
+    font-size: 18px;
+}
+.cvo__main{
+    display: flex;
+    margin-top: 50px;
+}
+
+.cvo__main--left{
+    width: 40%;
+    margin-right: 50px;
+}
+.cvo__main--right{
+    width: 55%;
+}
+.cvo__sub--text {
+    color: #ff881d;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+
+}
+.cvo__sub--text span{
+    color: #496c92;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 100;
+}
+textarea,
+input{
+    outline: none;
+    border: 1px solid var(--main_color);
+    border-radius: 10px;
+    padding: 5px;
+}
+.more__skill{
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: .5s;
+    width: 150px;
+
+}
+.more__skill:hover{
+    background-color: #ff881d;
+    border-radius: 210px;
+    color: white;
+}
+.cvo__sub--describe2{
+    margin-top: 15px;
+}
+
+.line__body--pt{
+    background-color: var(--main_color);
+    width: 30%;
+    height: 10px;
+    border-radius: 10px;
+}
